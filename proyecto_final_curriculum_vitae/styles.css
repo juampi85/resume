@@ -232,6 +232,13 @@ button {
   color: white;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: black;
+  box-shadow: 0 0 30px rgba(0,0,0,.5);
 }
 
 @media (max-width: 1100px) {

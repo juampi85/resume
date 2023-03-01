@@ -98,29 +98,34 @@
         <div class="about">
           <h2 class="title-2">Perfil</h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores
-            quisquam, ratione alias cumque temporibus impedit velit expedita
-            enim molestiae voluptatum beatae excepturi odio deleniti quae
-            debitis, veniam, et consectetur voluptas. Adipisci animi, quaerat
-            quae veniam velit ab cupiditate odio aliquam non mollitia tenetur
-            eaque, doloremque rem. Aliquam cumque hic necessitatibus
-            consequuntur eligendi, omnis atque quod ex. Ratione veniam vero
-            ipsam.<br />
+            Soy una persona cuya motivación es el seguir aprendiendo, distintas
+            herramientas, día a día para optimizar recursos a la hora de
+            cumplimentar los objetivos trazados.<br />
             <br />
-            Omnis rerum impedit, repudiandae minima earum nostrum, deleniti
-            aliquid nulla animi, repellendus error cumque quis delectus.
-            Corrupti, sunt explicabo reiciendis repellendus aspernatur illum
-            consectetur quod, sequi soluta, quasi eos exercitationem. Beatae
-            nostrum dolorem aliquam quisquam iure alias nulla quas,
-            reprehenderit architecto itaque, praesentium, officiis ea assumenda
-            soluta!
+            Me desempeño muy bien en un ambiente grupal de trabajo, a la vez que
+            tengo capacidad de resolver tareas en ambientes con una constante
+            presión.
           </p>
         </div>
         <div class="about">
           <h2 class="title-2">Experiencia</h2>
           <div class="box">
             <div class="year-company">
-              <h5>2021 - Presente</h5>
+              <h5>2022 - Presente</h5>
+              <h5>Coder House <br /></h5>
+            </div>
+            <div class="text">
+              <h4>Docente de la Carrera de Análisis de Datos</h4>
+              <p>
+                Tengo a cargo la provisión de asesorías respecto a lo que es el
+                Análisis de Datos a través de la herramienta de Office Microsoft
+                Excel en forma de clases y tutorías.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="year-company">
+              <h5>2020 - Presente</h5>
               <h5>
                 Mercantil Andina <br />
                 Allianz <br />
@@ -130,10 +135,9 @@
             <div class="text">
               <h4>Productor Asesor de Seguros</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
-                autem dolores ut alias. Eveniet soluta ex a omnis. Iure libero
-                eos ea iusto praesentium inventore iste molestiae facilis culpa
-                non?
+                Trabajo, mediante matrícula habilitante emitida por la
+                Superintendencia de Seguros de la Nación, en las ramas
+                Patrimoniales y de Personas.
               </p>
             </div>
           </div>
@@ -146,10 +150,10 @@
             <div class="text">
               <h4>Responsable de Administración</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
-                autem dolores ut alias. Eveniet soluta ex a omnis. Iure libero
-                eos ea iusto praesentium inventore iste molestiae facilis culpa
-                non?
+                Encargado del manejo de mercaderías enviadas entre la central y
+                su sucursal. También el registro de las ventas, cargas de
+                facturas y control de las Cuentas Corrientes con los
+                Proveedores, todo a través del Software Contable "Tango".
               </p>
             </div>
           </div>
@@ -162,10 +166,12 @@
             <div class="text">
               <h4>Encargado de Cuentas Corrientes</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
-                autem dolores ut alias. Eveniet soluta ex a omnis. Iure libero
-                eos ea iusto praesentium inventore iste molestiae facilis culpa
-                non?
+                Mi función empezaba al realizarse la compra, ya que debía
+                realizar el seguimiento de los materiales hasta que llegaran a
+                destino y ahí sí programar y efectuar los pagos correspondientes
+                a los proveedores de la empresa, realizando conciliaciones y
+                discriminando situaciones impositivas de cada proveedor, de
+                todas las obras que lleva a cabo la empresa en la zona del NEA.
               </p>
             </div>
           </div>
@@ -234,9 +240,16 @@
           </div>
         </div>
         <div class="btn">
-          <button>Imprimir CV</button>
+          <button id="printBtn">Imprimir CV</button>
         </div>
       </div>
     </div>
+
+    <script>
+      const btn = document.getElementById("printBtn");
+      btn.onclick = () => {
+        window.print();
+      };
+    </script>
   </body>
 </html>
