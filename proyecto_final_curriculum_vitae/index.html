@@ -1,13 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Proyecto Final: Currículum Vitae</title>
-  <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-  <h1>Prueba de CV</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Resume</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-side">
+        <div class="profile-text">
+          <div class="img-box">
+            <img
+              src="./images/foto_cv_juampi.jpg"
+              alt="Photo of myself"
+              class="resume-photo"
+            />
+          </div>
+          <h2>Juan Pablo Accinelli<br /><span>Desarrollador Web</span></h2>
+        </div>
+
+        <div class="contact-info">
+          <h3 class="title">Información de Contacto</h3>
+          <ul>
+            <li>
+              <span class="icon"><i class="fa-brands fa-whatsapp"></i></span>
+              <span class="text">+54 9 3764277716</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa-regular fa-envelope"></i></span>
+              <span class="text">juanpaccinelli@gmail.com</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa-brands fa-github"></i></span>
+              <span class="text">https://github.com/juampi85</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa-brands fa-linkedin"></i></span>
+              <span class="text"
+                >https://www.linkedin.com/in/juan-pablo-accinelli/</span
+              >
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa-sharp fa-solid fa-map-location"></i
+              ></span>
+              <span class="text">Posadas, Misiones, Argentina</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-info education">
+          <h3 class="title">Estudios</h3>
+          <ul>
+            <li>
+              <h5>2020 - 2022</h5>
+              <h4>Desarrollador Web Frontend</h4>
+              <h5>CoderHouse</h5>
+            </li>
+            <li>
+              <h5>2019 - 2020</h5>
+              <h4>Productor Asesor de Seguros</h4>
+              <h5>Asociación Misionera de Productores Asesores de Seguros</h5>
+            </li>
+            <li>
+              <h5>2005 - 2015</h5>
+              <h4>Contador Público Nacional</h4>
+              <h5>Universidad Nacional de Córdoba</h5>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-info languages">
+          <h3 class="title">Idiomas</h3>
+          <ul>
+            <li>
+              <span class="text">Inglés (Escrito / Oral: avanzado)</span>
+            </li>
+            <li>
+              <span class="text"
+                >Portugués (Escrito: básico / Oral: intermedio)</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <div class="about">
+          <h2 class="title-2">Perfil</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores
+            quisquam, ratione alias cumque temporibus impedit velit expedita
+            enim molestiae voluptatum beatae excepturi odio deleniti quae
+            debitis, veniam, et consectetur voluptas. Adipisci animi, quaerat
+            quae veniam velit ab cupiditate odio aliquam non mollitia tenetur
+            eaque, doloremque rem. Aliquam cumque hic necessitatibus
+            consequuntur eligendi, omnis atque quod ex. Ratione veniam vero
+            ipsam.<br />
+            <br />
+            Omnis rerum impedit, repudiandae minima earum nostrum, deleniti
+            aliquid nulla animi, repellendus error cumque quis delectus.
+            Corrupti, sunt explicabo reiciendis repellendus aspernatur illum
+            consectetur quod, sequi soluta, quasi eos exercitationem. Beatae
+            nostrum dolorem aliquam quisquam iure alias nulla quas,
+            reprehenderit architecto itaque, praesentium, officiis ea assumenda
+            soluta!
+          </p>
+        </div>
+        <div class="about">
+          <h2 class="title-2">Experiencia</h2>
+          <div class="box">
+            <div class="year-company">
+              <h5>2021 - Presente</h5>
+              <h5>
+                Mercantil Andina <br />
+                Allianz <br />
+                Boston
+              </h5>
+            </div>
+            <div class="text">
+              <h4>Productor Asesor de Seguros</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
+                autem dolores ut alias. Eveniet soluta ex a omnis. Iure libero
+                eos ea iusto praesentium inventore iste molestiae facilis culpa
+                non?
+              </p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="year-company">
+              <h5>2020 - 2021</h5>
+              <h5>Fábrica de Pastas La Nona S.A.</h5>
+            </div>
+            <div class="text">
+              <h4>Responsable de Administración</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
+                autem dolores ut alias. Eveniet soluta ex a omnis. Iure libero
+                eos ea iusto praesentium inventore iste molestiae facilis culpa
+                non?
+              </p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="year-company">
+              <h5>2017 - 2019</h5>
+              <h5>S.A.C.D.E.</h5>
+            </div>
+            <div class="text">
+              <h4>Encargado de Cuentas Corrientes</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
+                autem dolores ut alias. Eveniet soluta ex a omnis. Iure libero
+                eos ea iusto praesentium inventore iste molestiae facilis culpa
+                non?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about skills">
+          <h2 class="title-2">Tecnologías que manejo</h2>
+          <div class="tech-div">
+            <div class="box">
+              <h4>HTML</h4>
+            </div>
+            <div class="box">
+              <h4>CSS</h4>
+            </div>
+            <div class="box">
+              <h4>Javascript</h4>
+            </div>
+            <div class="box">
+              <h4>React</h4>
+            </div>
+            <div class="box">
+              <h4>Git</h4>
+            </div>
+            <div class="box">
+              <h4>Bootstrap</h4>
+            </div>
+            <div class="box">
+              <h4>Tailwind</h4>
+            </div>
+            <div class="box">
+              <h4>Github</h4>
+            </div>
+            <div class="box">
+              <h4>Gitlab</h4>
+            </div>
+            <div class="box">
+              <h4>NextJs</h4>
+            </div>
+            <div class="box">
+              <h4>Tango Soft.</h4>
+            </div>
+            <div class="box">
+              <h4>SAP Contable</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="about references">
+          <h2 class="title-2">Referencias</h2>
+          <div class="references-grid">
+            <ul>
+              <li><h3>Benjamin Franklyn</h3></li>
+              <p>Presidente La Nona S.A.</p>
+              <h5>Teléfono: 1168954437</h5>
+            </ul>
+            <ul>
+              <li><h3>Douglas Mc Quaid</h3></li>
+              <p>Administrador SACDE</p>
+              <h5>Teléfono: 3764233658</h5>
+            </ul>
+            <ul>
+              <li><h3>Steven Seagal</h3></li>
+              <p>Gerente General Mercantil Andina</p>
+              <h5>Teléfono: 3781399102</h5>
+            </ul>
+          </div>
+        </div>
+        <div class="btn">
+          <button>Imprimir CV</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
